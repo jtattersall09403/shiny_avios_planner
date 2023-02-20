@@ -1,3 +1,5 @@
+# Load functions
+sapply(list.files('R/', full.names = TRUE), source)
 
 # Example route for a Maldives luxury trip!
 twostop <- get_routes_miles("LHR", "LPB", positioning_radius = 1500, max_stops = 2)
